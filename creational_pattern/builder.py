@@ -16,7 +16,7 @@
 因而可以在Director中维护一个类似于队列的结构，在实例化时作为参数代入到具体建造者中。
 """
 
-from factory import CheeseBurger, Chips, Coke
+from creational_pattern.factory import CheeseBurger, Chips, Coke
 
 
 class Order:
